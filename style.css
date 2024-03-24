@@ -1,0 +1,82 @@
+.attribution { font-size: 11px; text-align: center; margin-bottom: 10px; color:hsl(0, 100%, 41%)}
+.attribution a { color: hsl(0, 0%, 0%);  text-decoration: none;  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+   gap: 50px;
+}
+.container{
+    width:325px;
+    height:450px;
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 12px;
+    box-shadow:  -1px -1px 1px #000000,
+             8px 8px 8px #000000;
+}
+#image img{
+    margin:10px;
+    margin-left: 13px;
+    width:300px;
+    padding: 10px;
+}
+h3{
+    display: inline;
+    background-color:hsl(47, 88%, 63%) ;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 800;
+    font-family:  "Figtree", sans-serif;
+}
+p{
+    font-size: 16px;
+    margin:10px;
+    margin-left: 13px;
+    padding: 12px;
+    padding-bottom: 8px;
+    font-family:  "Figtree", sans-serif;
+}
+.bold{
+    margin:10px;
+    margin-left: 13px;
+    margin-top: 0px;
+    padding: 10px;
+    padding-top: 0px;
+    font-weight: 800;
+    font-size: 18px;
+}
+.content{
+    margin:10px;
+    margin-left: 13px;
+    margin-top: 0px;
+    padding: 10px;
+    padding-top: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    color:hsl(0, 0%, 50%)
+}
+.greg{
+    display: flex;
+    gap:12px;
+    margin-left: 15px;
+}
+.greg img{
+    width:25px;
+    height: 25px;
+}
+.greg h4{
+    font-weight: 800;
+    font-family:  "Figtree", sans-serif;
+    font-size: 10px;
+    margin-top: 8px;
+}
